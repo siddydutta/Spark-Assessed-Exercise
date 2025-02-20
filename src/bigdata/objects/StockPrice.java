@@ -31,6 +31,8 @@ public class StockPrice implements Serializable{
 	double volume; // Number of Units Traded during the Day
 	
 	String stockTicker; // Company Stock Ticker
+
+	public StockPrice() {}
 	
 	/**
 	 * Builds a StockPrice instance based on a Spark SQL row, which is what is read from the input file.
